@@ -29,5 +29,10 @@ class ContextTest < Minitest::Test
 
   def test_quick_start_includes_examples
     assert_includes Ask::Honeybadger::QUICK_START, "recent_faults"
+    assert_includes Ask::Honeybadger::QUICK_START, "fault_summary"
+  end
+
+  def test_quick_start_includes_projects
+    assert_includes Ask::Honeybadger::QUICK_START, "projects"
   end
 end
