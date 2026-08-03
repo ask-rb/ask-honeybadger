@@ -2,8 +2,8 @@ source "https://rubygems.org"
 
 gemspec
 
-gem "ask-core", "~> 0.1"
-gem "ask-auth", "~> 0.1"
+gem "ask-core"
+gem "ask-auth"
 
 group :test do
   gem "minitest", "~> 5.25"

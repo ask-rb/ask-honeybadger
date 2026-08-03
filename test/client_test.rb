@@ -7,7 +7,7 @@ class ClientTest < Minitest::Test
     super
     @token = "hb_test_token_12345"
     Ask::Auth.configure do |config|
-      config.providers = [->(name, user: nil) { @token if name == "honeybadger_token" }]
+      config.providers = [->(name, user: nil) { @token if name.to_s == "honeybadger_token" }]
     end
   end
 
