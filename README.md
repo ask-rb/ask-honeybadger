@@ -3,11 +3,8 @@
 [![Gem Version](https://badge.fury.io/rb/ask-honeybadger.svg)](https://badge.fury.io/rb/ask-honeybadger)
 
 > **⚠️ DEPRECATED:** This gem is deprecated. Use Honeybadger's official MCP
-> server instead: https://docs.honeybadger.io/resources/mcp/ (hosted endpoint:
-> https://mcp.honeybadger.io/mcp — use the EU endpoint for EU accounts).
-> Existing gem installations may continue to work, but this repository will
-> receive no further feature development. See the official MCP documentation
-> for setup and capabilities.
+> server instead. Existing gem installations may continue to work, but this
+> repository will receive no further feature development.
 
 Honeybadger service context for AI agents in the ask-rb ecosystem. It provides
 an authenticated HTTP client for the Honeybadger Data API, metadata constants
