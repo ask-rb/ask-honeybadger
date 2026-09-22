@@ -1,3 +1,10 @@
+## [Unreleased] - 2026-09-22
+
+### Deprecated
+
+- This gem is deprecated. Use Honeybadger's official MCP server instead:
+  https://docs.honeybadger.io/resources/mcp/
+
 ## [0.1.5] - 2026-09-18
 
 ### Changed
